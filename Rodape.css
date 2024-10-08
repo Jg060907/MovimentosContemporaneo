@@ -1,0 +1,49 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff004d;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape li {
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transition: transform 0.5s ease, background-color 0.3s;
+}
+
+.rodape li:hover {
+    transform: scale(1.1);
+    background-color: #555;
+}
+.rodape ul{
+    display: flex;
+    color: #ffffff;
+}
+
+footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

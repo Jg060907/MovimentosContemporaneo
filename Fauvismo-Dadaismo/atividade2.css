@@ -1,0 +1,364 @@
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    background-color: #000000;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.DADAISMO{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto{
+    justify-content: center;
+}
+
+.imagens{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagem1{
+    text-align: center;
+}
+
+.imagens2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagem2{
+    text-align: center;
+
+}
+
+.imagem3{
+    text-align: center;
+}
+
+.imagem4{
+    text-align: center;
+}
+
+.img5{
+    display: flex;
+    justify-content: center;
+}
+
+.img6{
+    display: flex;
+    justify-content: center;
+}
+
+.img7{
+    display: flex;
+    justify-content: center;
+}
+
+.img8{
+    display: flex;
+    justify-content: center;
+}
+
+.cor1{
+    color:lightsteelblue;
+}
+
+.cor2{
+    color:saddlebrown;
+}
+
+.cor3{
+    color: saddlebrown;
+}
+
+.cor4{
+    color: green;
+}
+
+.nm1{
+    display: flex;
+    justify-content: center;
+}
+
+.nm2{
+    display: flex;
+    justify-content: center;
+}
+
+.nm3{
+    display: flex;
+    justify-content: center;
+}
+
+.nm4{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.vid2{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.imagenns{
+    background-color:bisque;
+}
+
+.imagenns img{
+    border-radius: 10px;
+}
+
+.ARTdadaismo{
+    background-image: url("imagemativi2-2.png");
+    margin: 0px 0px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 50px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape li {
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transition: transform 0.5s ease;
+}
+
+.rodape li:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.rodape ul{
+    display: flex;
+    color: #ffffff;
+}
+
+footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Fontes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Fontes p {
+    border-radius: 25px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000000;
+    transition: transform 0.5s ease;
+}
+
+.Fontes p:hover {
+    background-color: #b3a08a;
+    transform: scale(1.3);
+}
+
+.texto1{
+    background-color: lightsteelblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto2{
+    background-color: saddlebrown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto3{
+    background-color: saddlebrown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto4{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.DADAISMO img {
+    border-radius: 25px;
+}
+
+.DADAISMO p {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 40px;
+}
+
+.centro1 {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    margin: 20px;
+}
+
+/*Pagina2*/
+
+.sla {
+    background-color: #fffd72;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #fffd72;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina3*/
+
+.sla1 {
+    background-color: #8aa7c3;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text1 {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #8aa7c3;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina4*/
+
+.sla2 {
+    background-color: #7C2D11;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #7C2D11;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina5*/
+
+.sla3 {
+    background-color: #1f0800;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text3 {
+    text-align: center;
+    color: #ffffff;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #1f0800;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+.CASA {
+    margin: 0px 0px;
+    gap: 15px;
+}

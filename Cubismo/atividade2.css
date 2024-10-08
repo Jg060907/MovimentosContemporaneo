@@ -1,0 +1,340 @@
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    background-color: #000000;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cubismo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.txt{
+    justify-content: center;
+}
+
+
+.imagens3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.senhoritas{
+    text-align: center;
+
+}
+
+.nu{
+    text-align: center;
+}
+
+.imagens4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.guernica{
+    text-align: center;
+
+}
+
+.jac{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.imagensss img{
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.imagensguernica{
+    display: flex;
+    justify-content: center;
+}
+
+.imagensjac{
+    display: flex;
+    justify-content: center;
+}
+
+.imagensnu{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenssenhoritas{
+    display: flex;
+    justify-content: center;
+}
+
+.h1guernica{
+    text-align: center;
+    color: grey;
+
+}
+
+.h3guernica{
+    text-align: center;
+}
+
+.h1jac{
+    text-align: center;
+    color: darkblue;
+}
+
+.h3jac{
+    text-align: center;
+}
+
+.h1nu{
+    text-align: center;
+    color: purple;
+}
+
+.h3nu{
+    text-align: center;
+}
+
+.h1senho{
+    text-align: center;
+    color: darkorange;
+}
+
+.h3senho{
+    text-align: center;
+}
+
+.video2{
+    display: flex;
+    justify-content: center;
+}
+
+.imagensss{
+    background-color:bisque;
+}
+
+.cub{
+    background-image: url("WhatsApp Image 2024-08-28 at 18.15.36.jpeg");
+    margin: 0px 0px;
+}
+
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 50px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape li {
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transition: transform 0.5s ease;
+}
+
+.rodape li:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.rodape ul{
+    display: flex;
+    color: #ffffff;
+}
+
+footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Fontes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Fontes p {
+    border-radius: 25px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000000;
+    transition: transform 0.5s ease;
+}
+
+.Fontes p:hover {
+    background-color: #b3a08a;
+    transform: scale(1.3);
+}
+
+.textoSenho{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textoNu{
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textoGuernica{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textoJac{
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Pagina2*/
+
+.sla {
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #5f9ea0;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina3*/
+
+.sla1 {
+    background-color: #8aa7c3;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text1 {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #8aa7c3;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina4*/
+
+.sla2 {
+    background-color: #7C2D11;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #7C2D11;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina5*/
+
+.sla3 {
+    background-color: #860000;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text3 {
+    text-align: center;
+    color: #ffffff;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #860000;
+    border-radius: 18px;
+    padding: 15px;
+}
+.CASA {
+    margin: 0px 0px;
+    gap: 15px;
+}
