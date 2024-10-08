@@ -1,0 +1,218 @@
+
+h2, h3 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color: #333;
+}
+
+.Home {
+    background-color: #0064b2;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.CASA {
+    margin: 0;
+    gap: 15px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 400px; /* Limita a largura do card */
+    max-height: 1100px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.saibamais, .obras, .obras2, .Fontes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.saibamais img, .imagenss img, .saibamais1 img {
+    border-radius: 25px;
+}
+
+.txt {
+    justify-content: center;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+.casa, .colombo {
+    color: cadetblue;
+}
+
+.beijo {
+    color: darkorange;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #ff004d, #94002e);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #94002e, #ff004d);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.imgs, .imgs2, .imgs3 {
+    display: flex;
+    justify-content: center;
+}
+
+.Fontes p {
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #333;
+    transition: transform 0.5s ease, background-color 0.3s;
+}
+
+.Fontes p:hover {
+    background-color: #b3a08a;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .card {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .saibamais, .obras, .obras2, .Fontes {
+        flex-direction: column;
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.saibamais img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 470px;
+    max-height: 470px;
+
+}
+
+.card a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.txt p {
+    text-align: justify;
+}
+
+.cards a {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cards1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards1 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 1100px; /* Limita a largura do card */
+    max-height: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.saibamais1 img {
+    height: 400px;
+    width: 330px;
+    margin-right: 5px;
+}
+
+.Cabeçalho {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 105px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.Cabeçalho p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.Cabeçalho h1 {
+    margin-top: 10px;
+}

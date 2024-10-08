@@ -1,0 +1,399 @@
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    background-color: #000000;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ARTNeuveau {
+    background-image: url("bk.png");
+    margin: 0px 0px;
+}
+
+.CASA {
+    margin: 0px 0px;
+    gap: 15px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 50px;
+    height: auto;
+    width: auto;
+}
+
+.Neuveau {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
+
+.Neuveau img {
+    border-radius: 25px;
+}
+
+.Neuveau p {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 22px;
+    font-family: bold;
+}
+
+.centro1 {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    margin: 20px;
+}
+
+.imagenss p {
+    font-size: 18px;
+}
+
+.txt {
+    justify-content: center;
+}
+
+.obras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*gap:50px*/
+
+}
+
+.img1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.img2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.obras2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*gap:50px*/
+
+}
+
+.img3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.img4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.img5 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.casa {
+    color: cadetblue;
+}
+
+.beijo {
+    color: darkorange;
+}
+
+.colombo {
+    color: cadetblue;
+}
+
+.imgs2 {
+    display: flex;
+    justify-content: center;
+}
+
+.h3bule {
+    display: flex;
+    justify-content: center;
+}
+
+.h3casa {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.imgs3 {
+    display: flex;
+    justify-content: center;
+}
+
+.h3horta {
+    display: flex;
+    justify-content: center;
+}
+
+.bei {
+    display: flex;
+    justify-content: center;
+}
+
+.h3gus {
+    display: flex;
+    justify-content: center;
+}
+
+.confeitaria {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+.txt1 {
+    gap: 10px;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.imagenss img {
+    border-radius: 10px;
+}
+
+.video2 {
+    text-align: center;
+}
+
+.imagenss {
+    background-color: bisque;
+    margin: 15px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.Fontes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Fontes p {
+    border-radius: 25px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000000;
+    transition: transform 0.5s ease;
+}
+
+.Fontes p:hover {
+    background-color: #9a0066;
+    transform: scale(1.1);
+    color: white;
+}
+
+/*Rodape*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape li {
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transition: transform 0.5s ease;
+}
+
+.rodape li:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.rodape ul {
+    display: flex;
+    color: #ffffff;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/*Pagina2*/
+
+.sla {
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #5f9ea0;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina3*/
+
+.sla1 {
+    background-color: #8aa7c3;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text1 {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #8aa7c3;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina4*/
+
+.sla2 {
+    background-color: #7C2D11;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #7C2D11;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina5*/
+
+.sla3 {
+    background-color: #D08E00FF;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.text3 {
+    text-align: center;
+    color: #000000;
+    margin: 15px;
+    font-size: 18px;
+    background-color: #d08e00;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/*Pagina6*/
+
+.sla4 {
+    background-color: #002749;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
